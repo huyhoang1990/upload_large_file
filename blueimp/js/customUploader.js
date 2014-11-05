@@ -31,8 +31,7 @@ $(function() {
    */
   uploadedFilePath = function(data) {
     console.log("hohuyhoang" + data.result);
-    var response;
-    return "success";
+    alert("sucess");
     response = JSON.parse(data.result);
     if (response.files) {
       return response.files[0][".path"];
